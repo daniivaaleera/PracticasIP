@@ -21,3 +21,5 @@ int main (){
 		cout << operando1 << operador << operando2 << "-" << operando1/operando2 << endl;
 	return 0;
 }
+
+//aun trabajando en el codigo, no funciona, arreglar ASAP
