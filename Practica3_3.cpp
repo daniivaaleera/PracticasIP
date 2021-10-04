@@ -5,7 +5,7 @@ using namespace std;
 int main (){
     int d,m,a;
     bool ultimoDia;
-    cout << "Introduce la fecha, siguiendo dia/mes/a�o";
+    cout << "Introduce la fecha, siguiendo dia/mes/año";
     cin >> d >> m >> a;
     if (a%4==0){
         switch (m) {
@@ -57,3 +57,5 @@ int main (){
     cout << "El dia siguiente es: " << d <<" "<< m <<" "<< a << endl;
     return 0;
 }
+
+//Programa realizado por Daniel Valera Tebas en 1º de Ingeniería Informática.
