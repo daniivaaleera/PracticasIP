@@ -9,17 +9,23 @@ int main (){
 	cout << "Introduce los dos numeros con los que deseas operar" << endl;
 	cin >> operando1;
 	cin >> operando2;
-	cout << "Que operacion deseas llevar a cabo?" << endl;
+	cout << "Que operacion deseas llevar a cabo, sumar, restar, multiplicar o dividir?" << endl;
 	cin >> operador;
-	if (operador == *){
-		cout << operando1 << operador << operando2 << "=" << operando1*operando2 << endl;
-	else if (operador == "/"){
-		cout << operando1 << operador << operando2 << "/" << operando1/operando2 << endl;
-	else if (operador == "+"){
-		cout << operando1 << operador << operando2 << "+" << operando1/operando2 << endl;
-		else if (operador == "-"){
-		cout << operando1 << operador << operando2 << "-" << operando1/operando2 << endl;
-	return 0;
+	switch(operador){
+		case '+':
+			cout << "El resultado es: " << operando1+operando2 << endl;
+			break;
+		case '-':
+			cout << "El resultado es: " << operando1-operando2 << endl;
+			break;
+		case '*':
+			cout << "El resultado es: " << operando1*operando2 << endl;
+			break;
+		case '/':
+			cout << "El resultado es: " << operando1/operando2 << endl;
+			break;
+return 0;
+}
 }
 
-//aun trabajando en el codigo, no funciona, arreglar ASAP
+//Programa realizado por Daniel Valera Tebas en 1º de Ingeniería Informática.
